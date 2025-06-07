@@ -1,12 +1,37 @@
-# React + Vite
+# 🛍️ E-Commerce Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React frontend** for the E-Commerce Product Manager app. It allows users to:
 
-Currently, two official plugins are available:
+- View a list of products with images
+- Add, edit, and delete products
+- Upload and preview multiple images (base64 encoded)
+- Perform form validations and interact with a RESTful backend API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔧 Prerequisites
+
+- Node.js (v14+)
+- npm (v6+)
+
+---
+
+### 📦 Install Dependencies
+
+```bash
+npm install
+```
+**Configuration**
+
+file Path /src/utils/ApiList.jsx
+```bash
+BACKEND_URL // Change your backend URL
+MAX_IMAGES  // Image upload limit per product (Use Same with Backend)
+```
+
+### To Start 
+```bash
+npm run dev
+```
